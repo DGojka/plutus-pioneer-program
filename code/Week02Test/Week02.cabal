@@ -1,5 +1,5 @@
 cabal-version:      3.4
-name:               week02
+name:               week02test
 version:            0.1.0.0
 author:             IOG's education team
 maintainer:         education@iohk.io
@@ -63,4 +63,4 @@ test-suite week02-homework
     type:               exitcode-stdio-1.0
     main-is:            THomework.hs
     hs-source-dirs:     tests
-    build-depends:      week02
+    build-depends:      week02test
