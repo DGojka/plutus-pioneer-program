@@ -25,5 +25,5 @@ validator = PlutusV2.mkValidatorScript $$(PlutusTx.compile [|| mkGiftValidator |
 ---------------------------------------------------------------------------------------------------
 ------------------------------------- HELPER FUNCTIONS --------------------------------------------
 
-saveVal :: IO ()
-saveVal = writeValidatorToFile "./assets/gift.plutus" validator
+saveValTest :: IO ()
+saveValTest = writeValidatorToFile "./assets/gift.plutus" validator
